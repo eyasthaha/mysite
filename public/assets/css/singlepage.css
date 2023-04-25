@@ -1,0 +1,115 @@
+.singlepage-container{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.post-view{
+    width: 70%;
+    /* margin: 0 2%; */
+    /* border: 1px solid red; */
+    padding: 0 2%;
+}
+
+.post-view img{
+    width: 100%;
+    max-height: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.post-view .post-content{
+    font-size: 20px;
+}
+
+.post-view p{
+    font-size: larger;
+}
+
+
+.comments-container{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.comments{
+    margin-left: 5%;
+}
+
+.comments .date{
+    color: grey;
+    font-size: small;
+}
+
+.post-your-cmt form{
+    margin: 50px;
+}
+
+.post-your-cmt form textarea{
+
+    width: 99%;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.post-your-cmt form input{
+
+    width: 99%;
+    border: 1px solid rgb(167, 167, 167);
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 1%;
+}
+
+.post-your-cmt form button{
+    padding: 20px 50px;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-your-cmt form button:hover{
+
+    background-color: rgb(78, 133, 235);
+
+}
+
+@media only screen and (max-width: 1047px) {
+
+    .singlepage-container{
+        display: inline;
+    }
+
+    .post-view{
+        width: 100%;
+    }
+
+    .comments-container{
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+}
+
+#social-links ul li{
+    position: relative;
+    display: inline;
+    padding: 5px;
+    font-size: 30px;
+}
+
+#social-links a{
+    color: rgb(0, 0, 0);
+}

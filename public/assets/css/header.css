@@ -1,0 +1,93 @@
+.header-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding-inline: 15%;
+    /* box-shadow: 2px 1px 8px 1px #888888; */
+    margin-bottom: 2%;
+    border-bottom: 1px solid gainsboro;
+}
+
+.header-container .logo{
+    width: 30%;
+    float: left;
+    font-size: 25px;
+}
+
+.harmburger{
+    display: none;
+}
+
+.header-container .logo img {
+    width: 30%;
+    position: relative;
+}
+
+.header-menu ul li{
+    width: auto;
+    display: inline;
+    font-size: large;
+    color: #537FE7;
+    padding: 5px;
+}
+
+.header-menu ul a{
+    text-decoration: none;
+}
+
+.header-menu ul a :hover{
+    color: #093ac2;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1047px) {
+
+    .harmburger{
+        position: relative;
+        display: block;
+        font-size: 30px;
+        margin-right: 5%;
+    }
+
+    .header-container{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }   
+
+    .header-container .logo{
+        display: inline;
+        text-align: center;
+    }
+    
+
+
+    .header-container .logo{
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .header-menu{
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+
+    .header-menu ul li{
+        display: block;
+    }
+
+}
+
+.dark {
+    background-color: #000000;
+    color: white;
+}

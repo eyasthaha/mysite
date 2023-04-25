@@ -1,0 +1,42 @@
+.trending-posts{    
+    padding: 15px;
+    position: relative;
+    /* width: 100%; */
+}
+
+.trending-posts .posts{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid gainsboro ;
+}
+
+.trending-posts .posts a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+
+.trending-posts .imagesss{
+    width: 70%;
+}
+
+.trending-posts img{
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.trending-posts .post-text{
+    width: 100%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 1047px) {
+
+    .trending-posts .imagesss{
+        width: 200px;
+    }
+
+}

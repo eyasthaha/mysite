@@ -1,0 +1,21 @@
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(173, 173, 173);
+}
+
+.footer-container div{
+    align-items: center;
+    /* text-align: center; */
+    padding : 2%;
+    /* border: 1px solid red; */
+    width: auto;
+}
+
+.footer-container img{
+    width: 80%;
+}
+
+.footer-container #social-media-icons i{
+    padding: 5px;
+}
